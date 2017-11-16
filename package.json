@@ -1,6 +1,6 @@
 {
   "name": "done-bar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -8,7 +8,7 @@
     "ios": "react-native run-ios",
     "android": "react-native run-android"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.0.0",
     "react-native": "^0.48.4"
   },
@@ -21,7 +21,8 @@
   "jest": {
     "preset": "react-native"
   },
-  "description": "[![NPM](https://nodei.co/npm/done-bar.png?downloads=true)](https://www.npmjs.com/package/done-bar)",
+  "description":
+    "[![NPM](https://nodei.co/npm/done-bar.png?downloads=true)](https://www.npmjs.com/package/done-bar)",
   "main": "index.js",
   "repository": {
     "type": "git",
